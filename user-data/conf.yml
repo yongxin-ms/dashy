@@ -87,7 +87,7 @@ sections:
       - title: Image Merge
         description: Merge Imgs into pdf
         icon: Pic2Pdf.png
-        url: https://i007.cc/img-merge/
+        url: https://i007.vip:15443/img-merge/
         target: newtab
       - title: IT-TOOLS
         description: Handy tools for developers
@@ -144,7 +144,7 @@ sections:
         icon: webmin.png
         url: http://10.0.0.5:10000/
       - title: Portainer
-        description: Docker Managerment
+        description: Docker Management
         icon: docker-moby.png
         url: http://10.0.0.5:9000/
       - title: PhpMyAdmin
@@ -164,7 +164,7 @@ sections:
         icon: znc.png
         url: http://10.0.0.5:8080
       - title: SMB 5024
-        description: H3C Switcher
+        description: H3C Switch
         icon: huawei.png
         url: http://10.0.0.253
       - title: HG8347R
