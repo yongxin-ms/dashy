@@ -25,7 +25,7 @@ appConfig:
     searchEngine: duckduckgo
     openingMethod: newtab
     searchBangs: {}
-  enableFontAwesome: true
+  enableFontAwesome: false
   enableMaterialDesignIcons: false
   hideComponents:
     hideHeading: false
@@ -46,7 +46,7 @@ appConfig:
   disableConfiguration: false
   disableConfigurationForNonAdmin: true
   allowConfigEdit: true
-  enableServiceWorker: false
+  enableServiceWorker: true
   disableContextMenu: true
   disableUpdateChecks: false
   disableSmartSort: false
