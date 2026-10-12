@@ -58,11 +58,6 @@ appConfig:
 sections:
   - name: Public
     items:
-      - title: Docmost
-        description: On-Premises Wiki
-        icon: docmost.png
-        url: https://i007.vip:16017
-        target: newtab
       - title: Reference
         description: WordPress
         icon: wordpress.png
@@ -113,6 +108,11 @@ sections:
         description: Bookmark manager
         icon: linkding.png
         url: https://i007.vip:16018
+      - title: Docmost
+        description: On-Premises Wiki
+        icon: docmost.png
+        url: https://i007.vip:16017
+        target: newtab
       - title: Memos
         description: Note-taking solution
         icon: memos.png
@@ -124,6 +124,8 @@ sections:
       collapsed: false
       hideForGuests: false
   - name: Private
+    displayData:
+      hideForGuests: false
     items:
       - title: Portal
         description: HomeLab dashy-portal Centos7
