@@ -110,7 +110,6 @@
     "reset-config-label": "Konfiqurasiyanı sıfırla",
     "css-save-btn": "Dəyişiklikləri yadda saxla",
     "css-note-label": "Qeyd",
-    "css-note-l1": "Dəyişikliklərin qüvvəyə minməsi üçün səhifəni yeniləmək lazımdır.",
     "css-note-l2": "Üslub dəyişiklikləri yalnız lokal saxlanılır, ona görə də CSS-inizin bir nüsxəsini götürmək tövsiyə olunur.",
     "css-note-l3": "Bütün fərdi üslubları silmək üçün məzmunu silin və 'Dəyişiklikləri yadda saxla' düyməsini basın",
     "custom-css": {
@@ -567,7 +566,8 @@
       "overall": "Ümumi",
       "private-link": "şəxsi link",
       "public-link": "açıq link",
-      "quota-enabled": "Bu istifadəçi üçün disk kvotası {not}aktivdir",
+      "quota-disabled": "Bu istifadəçi üçün disk kvotası aktiv deyil",
+      "quota-enabled": "Bu istifadəçi üçün disk kvotası aktivdir",
       "received": "alınıb",
       "scripts": "skript",
       "sent": "göndərilib",

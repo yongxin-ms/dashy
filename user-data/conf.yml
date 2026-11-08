@@ -217,6 +217,7 @@ sections:
   - name: Widgets
     widgets:
       - type: joke
+        useProxy: true
         options:
           safeMode: true
           language: en
