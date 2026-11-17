@@ -61,20 +61,16 @@ sections:
       - title: Reference
         description: WordPress
         icon: wordpress.png
-        url: https://i007.vip:15443/wordpress
+        url: https://i007.vip:15000
         target: newtab
-      - title: Chevereto
-        description: Image and Video Hosting
-        icon: chevereto.png
-        url: https://i007.vip:15443/chevereto
+      - title: Lsky Pro
+        description: Your photo album on the cloud
+        icon: LskyPro.png
+        url: https://i007.vip:15002
       - title: DS-Office
         description: Synology Disk Station
         icon: synology-dsm.png
         url: https://i007.vip:13001
-      - title: Aria2
-        description: Downloader Utility
-        icon: ariang.png
-        url: https://i007.vip:15443/ariang
       - title: Gogs
         description: Self-hosted Git service
         icon: gogs.png
@@ -102,7 +98,7 @@ sections:
       - title: LiteLLM
         description: AI Gateway
         icon: litellm.png
-        url: https://i007.vip:16016/ui
+        url: https://i007.vip:15016/ui
         target: newtab
       - title: LinkDing
         description: Bookmark manager
@@ -130,7 +126,7 @@ sections:
       - title: Portal
         description: HomeLab dashy-portal Centos7
         icon: dashy.png
-        url: http://10.0.0.5:4000
+        url: http://homelab.lan:4000
         target: newtab
       - title: VMware ESXi
         description: VM Management
@@ -144,27 +140,31 @@ sections:
       - title: Webmin
         description: System Administration
         icon: webmin.png
-        url: http://10.0.0.5:10000/
+        url: http://homelab.lan:10000/
       - title: Portainer
         description: Docker Management
         icon: docker-moby.png
-        url: http://10.0.0.5:9000/
+        url: http://homelab.lan:9003/
       - title: PhpMyAdmin
         description: MySQL Management
         icon: mariadb.png
-        url: http://10.0.0.5:3307
+        url: http://homelab.lan:3307
+      - title: Aria2
+        description: Downloader Utility
+        icon: ariang.png
+        url: http://homelab.lan:8084/#!/settings/rpc/set/http/homelab.lan/6880/jsonrpc?secret=dG9rZW5wYXNzd2Q=
       - title: Transmission
         description: Bittorrent Client
         icon: transmission.png
-        url: http://10.0.0.5:9091
+        url: http://homelab.lan:9091
       - title: File Browser
         description: File Management
         icon: filebrowser.png
-        url: http://10.0.0.5:8007
+        url: http://homelab.lan:8007
       - title: Z-File
         description: Simple File Management
         icon: znc.png
-        url: http://10.0.0.5:8080
+        url: http://homelab.lan:8080
       - title: SMB 5024
         description: H3C Switch
         icon: huawei.png
@@ -207,12 +207,12 @@ sections:
       - title: Emby
         description: Media Server
         icon: emby.png
-        url: http://10.0.0.5:8096
+        url: http://homelab.lan:8096
         target: newtab
       - title: Subconverter
         description: Create clash sub
         icon: subarr.png
-        url: http://10.0.0.5:58080/
+        url: http://homelab.lan:58080/
         target: newtab
   - name: Widgets
     widgets:
