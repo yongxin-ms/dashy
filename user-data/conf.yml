@@ -67,6 +67,10 @@ sections:
         description: Your photo album on the cloud
         icon: LskyPro.png
         url: https://i007.vip:15002
+      - title: Chevereto
+        description: Image and Video Hosting
+        icon: chevereto.png
+        url: https://i007.vip:15443/chevereto/
       - title: DS-Office
         description: Synology Disk Station
         icon: synology-dsm.png
@@ -124,7 +128,7 @@ sections:
       hideForGuests: false
     items:
       - title: Portal
-        description: HomeLab dashy-portal Centos7
+        description: HomeLab dashy-portal
         icon: dashy.png
         url: http://homelab.lan:4000
         target: newtab
@@ -141,10 +145,14 @@ sections:
         description: System Administration
         icon: webmin.png
         url: http://homelab.lan:10000/
-      - title: Portainer
+      - title: Portainer homelab
         description: Docker Management
         icon: docker-moby.png
         url: http://homelab.lan:9003/
+      - title: Portainer debian
+        description: Docker Management
+        icon: docker-moby.png
+        url: http://debian.lan:9003/
       - title: PhpMyAdmin
         description: MySQL Management
         icon: mariadb.png
